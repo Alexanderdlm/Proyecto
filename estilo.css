@@ -1,0 +1,204 @@
+/* Estilos específicos para diferentes tamaños de pantalla */
+@media screen and (min-width: 600px) {
+    /* Estilos para pantallas más grandes, como tablets y computadoras */
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media screen and (max-width: 599px) {
+    /* Estilos para pantallas más pequeñas, como teléfonos móviles */
+  }
+body {
+    /* Tipo de letra */
+    font-family: Arial, sans-serif; /* Se establece el tipo de fuente principal para el cuerpo */
+
+    
+
+
+
+
+    
+    /* Margen */
+    margin: 0; /* Se elimina el margen predeterminado */
+
+    /* Espaciado interno */
+    padding: 0; /* Se elimina el espaciado interno predeterminado */
+
+    /* Centrado del texto */
+    text-align: center; /* Se centra el texto del cuerpo */
+
+    /* Color de fondo del cuerpo */
+    background-color:#223D3C; /* Se establece el color de fondo del cuerpo */
+    
+    /* Color del texto */
+    color:#fff; /* Se establece el color del texto en blanco */
+}
+
+/* Estilo para el encabezado */
+header {
+    /* Tipo de letra */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Se establece el tipo de fuente para el encabezado */
+
+    /* Color de fondo */
+    background-color: #FF66C4; /* Se establece el color de fondo del encabezado */
+
+    /* Color del texto */
+    color: #fff; /* Se establece el color del texto en blanco */
+
+    /* Espaciado interno */
+    padding: 20px; /* Se añade espaciado interno alrededor del encabezado */
+}
+
+/* Estilo para el título dentro del encabezado */
+header h1 {
+    margin: 0; /* Se elimina el margen superior e inferior del título */
+}
+
+/* Estilo para la lista de navegación */
+nav ul {
+    /* Estilo de la lista */
+    list-style-type: none; /* Se elimina el estilo de lista predeterminado */
+
+    /* Espaciado interno */
+    padding: 0; /* Se elimina el espaciado interno predeterminado */
+
+    /* Configuración de diseño flexbox */
+    display: flex; /* Se utiliza un diseño de caja flexible */
+    justify-content: space-between; /* Se distribuyen los elementos de la lista de manera uniforme */
+}
+
+/* Estilo para los elementos de la lista de navegación */
+nav ul li {
+    /* Línea vertical entre elementos */
+    border-right: 1px solid #fff; /* Se añade una línea vertical a la derecha de cada elemento */
+    
+    /* Espaciado a la derecha */
+    padding-right: 20px; /* Se añade espacio entre los elementos y la línea vertical */
+}
+
+/* Estilo para el último elemento de la lista de navegación */
+nav ul li:last-child {
+    border-right: none; /* Se elimina la línea vertical del último elemento */
+}
+
+/* Estilo para los enlaces dentro de la lista de navegación */
+nav ul li a {
+    color: #fff; /* Se establece el color del texto en blanco */
+    text-decoration: none; /* Se elimina el subrayado de los enlaces */
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px; /* Se añade espaciado interno a las secciones */
+}
+
+/* Estilo para el pie de página */
+footer {
+    /* Color de fondo */
+    background-color: #333; /* Se establece el color de fondo del pie de página */
+
+    /* Color del texto */
+    color: #fff; /* Se establece el color del texto en blanco */
+
+    /* Centrado del texto */
+    text-align: center; /* Se centra el texto del pie de página */
+
+    /* Espaciado interno */
+    padding: 10px; /* Se añade espaciado interno alrededor del pie de página */
+
+    /* Posición en la parte inferior */
+    bottom: 0; /* Se fija el pie de página en la parte inferior de la ventana */
+    
+    /* Ancho total */
+    width: 100%; /* El pie de página ocupa todo el ancho de la ventana */
+}
+
+/* Estilo para tablas */
+table {
+    width: 100%; /* La tabla ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Se colapsan los bordes de las celdas */
+    margin-bottom: 20px; /* Se añade margen inferior */
+}
+
+/* Estilo para celdas de tabla */
+th, td {
+    border: 1px solid #0e0d0d; /* Se establece el borde de las celdas */
+    padding: 8px; /* Se añade espaciado interno a las celdas */
+    text-align: left; /* Se alinea el texto a la izquierda */
+}
+
+/* Estilo para la clase "box" */
+.box {
+    background: #0DB8F9; /* Se establece el color de fondo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Se establece el tipo de fuente */
+    border: 5px; /* Se añade un borde de 5px */
+}
+
+/* Estilo para el elemento p1 */
+p1 {
+    width: 100%; /* El elemento ocupa todo el ancho disponible */
+    padding: 80%; /* Se añade un relleno del 80% */
+}
+
+/* Estilo para el elemento p2 */
+p2 {
+    float:left; /* El elemento se sitúa a la izquierda */
+    text-align: center; /* Se centra el texto */
+}
+
+/* Estilo para la clase "box1" */
+.box1 {
+    background: #FF66C4; /* Se establece el color de fondo */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Se establece el tipo de fuente */
+    color: #FFF42C; /* Se establece el color del texto */
+}
+
+/* Estilo para la clase "box2" */
+.box2 {
+    background: #ffffff; /* Se establece el color de fondo */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Se establece el tipo de fuente */
+    color: #38e9ef; /* Se establece el color del texto */
+    border-radius: 10px; /* Se añade un radio de borde de 10px */
+    width: 10%; /* Se establece el ancho al 10% */
+    text-align: center; /* Se centra el texto */
+    display: inline-block; /* Se muestra como un bloque en línea */
+}
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+.cookie-banner button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.box12 {
+    transform: scale(1); /* Escala inicial */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+    padding: 20px;
+    background-color: #2cdce9;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+}
+
+/* Estilo al pasar el cursor */
+.box12:hover {
+    transform: scale(1.05); /* Escala al pasar el cursor */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    background-color: #07921e; /* Cambio de color de fondo */
+}
+
+button{
+    border-radius: 50px;
+    background-color: rgb(59, 255, 59);
+    padding: 10px;
+}
