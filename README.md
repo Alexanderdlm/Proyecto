@@ -1,2 +1,2 @@
 # Proyecto
-Codigo del rimer,segundo y tercer parcial
+Codigo del primer,segundo y tercer parcial
